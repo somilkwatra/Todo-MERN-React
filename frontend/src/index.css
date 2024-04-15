@@ -1,0 +1,14 @@
+.home-btn {
+  background: linear-gradient(135deg, #00bcd4, #2196f3); /* Bluish gradient background */
+  color: #fff; 
+  padding: 10px 20px; 
+  font-size: 18px; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease; 
+}
+
+.home-btn:hover {
+  background: linear-gradient(135deg, #448aff, #40c4ff); /* Darker bluish gradient on hover */
+}

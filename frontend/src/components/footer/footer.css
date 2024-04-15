@@ -1,0 +1,10 @@
+.footer {
+  background: linear-gradient(135deg, #4285f4, #00c851); /* Gradient background */
+  color: #fff; /* Text color */
+  padding: 10px 20px; /* Add padding */
+  font-size: 18px; /* Set font size */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Add border radius */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  transition: background-color 0.3s ease; /* Add transition effect */
+}
