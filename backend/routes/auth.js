@@ -28,7 +28,7 @@ router.post("/register", async (req, res) => {
         await user.save();
 
         // Generate JWT token
-        const token = jwt.sign({ userId: user._id }, "Somil123@", { expiresIn: "1h" });
+        const token = jwt.sign({ userId: user._id }, "Somil123@", { expiresIn: "50h" });
 
         // Exclude password hash from the response
         const { password: userPassword, ...userData } = user._doc;
