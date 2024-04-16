@@ -40,7 +40,7 @@ router.post("/register", async (req, res) => {
     }
 });
 
-// Sign-in functionality
+// Sign-in functionalit
 router.post("/signin", async (req, res) => {
     try {
         const { email, password } = req.body;
