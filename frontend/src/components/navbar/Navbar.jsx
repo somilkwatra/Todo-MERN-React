@@ -47,7 +47,7 @@ const Navbar = () => {
               <>
                 <li className="nav-item dropdown">
                   <button
-                    className="nav-link dropdown-toggle btn btn-nav"
+                    className="nav-link dropdown-toggle btn p-10% btn-nav"
                     id="navbarDropdown"
                     role="button"
                     data-bs-toggle="dropdown"
